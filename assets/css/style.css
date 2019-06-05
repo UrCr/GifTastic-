@@ -1,0 +1,38 @@
+body {
+    font-family:  'Monoton', cursive;
+    background: #0f9c27; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #36af91, #455f66); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #264966, #92c4d1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#buttons-view button,
+div,
+#buttons-view input {
+    margin-right: 0.3125rem;
+    margin-bottom: 0.3125rem;
+    margin-top: 0.3125rem;
+}
+
+img.gif-style {
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.card {
+    max-width: 15.625rem;
+    margin: 0.625rem auto;
+}
+
+.btn-info {
+    background-color: rgb(190, 137, 22);
+    border: 3px solid rgb(55, 9, 92);
+}
+
+.btn-info:hover {
+    background-color: darkslategrey;
+}
+
+h1.display-2 {
+    font-family: 'Candal', sans-serif;
+    color: rgb(180, 52, 91) !important;
+}
